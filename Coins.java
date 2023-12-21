@@ -5,9 +5,11 @@
 public class Coins {
 	public static void main(String[] args) 
 	{
+		//Gets the number of cents
 		int totall = Integer.parseInt(args[0]);
 		int q = totall / 25;
 		int c = totall - (q*25);
-      		System.out.println("Use " +q + " quarters and " + c + " cents");
+		//Prints the biggest quantity of quarters that can be used and the cents that remained
+		System.out.println("Use " +q + " quarters and " + c + " cents");
 	}
 }
