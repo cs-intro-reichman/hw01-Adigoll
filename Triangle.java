@@ -12,6 +12,6 @@ public class Triangle
 		int b = Integer.parseInt(args[1]);
 		int c = Integer.parseInt(args[2]);
 		//Checks if the numbers are vertices of a triangle according to the Triangle Inequality Theorem
-		System.out.println((a + b) >c && (a + c) >b && (b + c) >a);
+		System.out.println((a + b) > c && (a + c) > b && (b + c) > a);
 	}
 }
