@@ -10,6 +10,6 @@ public class Coins {
 		int q = totall / 25;
 		int c = totall - (q*25);
 		//Prints the biggest quantity of quarters that can be used and the cents that remained
-		System.out.println("Use " +q + " quarters and " + c + " cents");
+		System.out.println("Use " + q + " quarters and " + c + " cents");
 	}
 }
