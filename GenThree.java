@@ -17,8 +17,7 @@ public class GenThree {
 		System.out.println(n2);
 		System.out.println(n3);
 		//Finds the smallest number an prints it
-		int min = Math.min(n1, n2);
-		min = Math.min(min, n3);
+		int min = Math.min(n1, Math.min(n2, n3));
 		System.out.println("The minimal generated number was " + min);
 	}
 }
